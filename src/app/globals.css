@@ -1,26 +1,182 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* next-themes toggles a class on <html> ("dark" | "light"). Drive Tailwind's
+   dark: variant off that class instead of the OS media query. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Design tokens ---------- */
+:root,
+.dark {
+  --bg: #07070d;
+  --bg-soft: #0e0e1a;
+  --bg-elevated: #16162b;
+  --fg: #f4f5fb;
+  --muted: #9ca2bd;
+  --border: rgba(255, 255, 255, 0.1);
+  --card: rgba(255, 255, 255, 0.035);
+
+  --accent-1: #19e0ff; /* electric cyan */
+  --accent-2: #c9ff3d; /* neon lime — primary highlight */
+  --accent-3: #8b5cff; /* violet */
+  --on-accent: #07070d; /* text on bright accents */
+  --ring: rgba(201, 255, 61, 0.5);
+  --blob-opacity: 0.6;
 }
 
+.light {
+  --bg: #f5f6fa;
+  --bg-soft: #ffffff;
+  --bg-elevated: #ffffff;
+  --fg: #0b0b14;
+  --muted: #54596e;
+  --border: rgba(11, 11, 20, 0.12);
+  --card: rgba(11, 11, 20, 0.025);
+
+  --accent-1: #0aa0c4; /* deeper cyan for contrast on light */
+  --accent-2: #4f9c00; /* deeper lime/green, readable on white */
+  --accent-3: #6d3bff;
+  --on-accent: #ffffff;
+  --ring: rgba(79, 156, 0, 0.4);
+  --blob-opacity: 0.22;
+}
+
+/* ---------- Tailwind theme mapping ---------- */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-accent-1: var(--accent-1);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-on-accent: var(--on-accent);
+
+  --font-display: var(--font-display), system-ui, sans-serif;
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ---------- Base ---------- */
+* {
+  border-color: var(--border);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  /* clip (NOT hidden) prevents horizontal scroll WITHOUT creating a scroll
+     container — essential so Lenis smooth scroll keeps working. */
+  overflow-x: clip;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+::selection {
+  background: var(--accent-2);
+  color: var(--on-accent);
+}
+
+/* ---------- Lenis ---------- */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ---------- Brand gradient (lime → cyan, vivid on dark) ---------- */
+.text-gradient {
+  background: linear-gradient(110deg, var(--accent-2) 0%, var(--accent-1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.bg-gradient-brand {
+  background: linear-gradient(110deg, var(--accent-2) 0%, var(--accent-1) 100%);
+}
+
+.border-gradient {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--bg-soft), var(--bg-soft)) padding-box,
+    linear-gradient(110deg, var(--accent-2), var(--accent-1)) border-box;
+}
+
+.dot-grid {
+  background-image: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--border);
+}
+
+.glow-ring {
+  box-shadow: 0 0 0 1px var(--ring), 0 0 50px -6px var(--ring);
+}
+
+.glow-accent {
+  box-shadow: 0 10px 40px -10px var(--ring);
+}
+
+/* ---------- Marquee ---------- */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee var(--marquee-duration, 30s) linear infinite;
+}
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--accent-2), var(--accent-1));
+  border: 3px solid var(--bg);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-2);
+}
+html {
+  scrollbar-color: var(--accent-2) var(--bg);
 }

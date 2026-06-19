@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Ahmad Khan — Digital Marketing Strategist | Meta Ads · SEO · SMM",
+    "description": "London-based digital marketing strategist. 7.36x ROAS on Meta Ads, organic growth to 48.5K followers, and SEO that compounds — paid, organic and SEO as one system."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "work": "Work",
+    "results": "Results",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "a11y": {
+    "toggleTheme": "Toggle light and dark theme",
+    "changeLanguage": "Change language"
+  },
+  "hero": {
+    "badge": "2025 – 2026",
+    "ghost": "PORTFOLIO",
+    "name": "AHMAD ULLAH KHAN",
+    "titles": ["Digital Strategist", "Creative Director", "Growth Specialist", "Meta Ads Expert"],
+    "headline": "Portfolio",
+    "lead": "A visual journey through my passion for digital marketing. From concept to creation, let's explore the stories and skills that define my work.",
+    "sub": "London-based digital marketing strategist helping ecommerce, B2B and lifestyle brands grow through paid ads, organic content and SEO working together as one system.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "View work",
+    "scroll": "Scroll to explore"
+  },
+  "trust": {
+    "topRated": "Top Rated",
+    "jss": "Job Success",
+    "earnings": "Earned",
+    "jobs": "Jobs done",
+    "hours": "Hours"
+  },
+  "about": {
+    "eyebrow": "Introduction",
+    "aboutTitle": "About me",
+    "aboutBody": "I am a versatile professional with expertise as a Creative Director, Social Media Strategist, and Designer. Combining creative leadership, strategic thinking, and design skills, I deliver impactful solutions that engage audiences and drive success. While most freelancers focus on one channel, I build full marketing strategies that drive consistent and compounding results across every touchpoint.",
+    "visionTitle": "Vision",
+    "visionBody": "My vision is to leverage the power of digital platforms to connect brands with their target audience in meaningful and authentic ways. By crafting compelling strategies and captivating content, I foster engagement, drive growth, and build lasting relationships between brands and their communities.",
+    "statsNote": "I have served a diverse range of clients, delivering impactful creative and social media solutions."
+  },
+  "stats": {
+    "clients": "Clients",
+    "handles": "Social Handles",
+    "dvc": "DVC",
+    "events": "Client Events"
+  },
+  "services": {
+    "eyebrow": "Strategy",
+    "heading": "What I",
+    "highlight": "do best",
+    "intro": "Every client gets a strategy built around their specific goals. No templates, no guesswork, no one-size-fits-all plans.",
+    "items": {
+      "metaAds": { "title": "Meta Ads", "desc": "Full-funnel Facebook & Instagram campaigns — from cold acquisition to retargeting that converts." },
+      "googlePpc": { "title": "Google PPC", "desc": "Search & display campaigns engineered for intent, quality score, and profitable CPA." },
+      "linkedinAds": { "title": "LinkedIn B2B Ads", "desc": "Connecting tech companies directly with the decision-makers who actually convert." },
+      "smm": { "title": "Social Media Management", "desc": "Strategy, content, community and scheduling that keeps brands consistently visible." },
+      "instagram": { "title": "Instagram Growth", "desc": "Organic growth systems and content strategy that build real, engaged audiences." },
+      "seo": { "title": "SEO", "desc": "Keyword research, on-page and technical SEO that compounds into lasting authority." },
+      "content": { "title": "Content Marketing", "desc": "Hooks, copy and creative systems — AI-assisted, conversion-focused, on brand." },
+      "emailSms": { "title": "Email & SMS", "desc": "Nurture and win-back flows that turn one-time buyers into repeat customers." },
+      "wordpress": { "title": "WordPress Development", "desc": "Performance- and conversion-optimized sites and ecommerce stores." },
+      "design": { "title": "Design & Brand", "desc": "Visual identity, ad creatives and positioning that make brands memorable." }
+    }
+  },
+  "work": {
+    "eyebrow": "Snapshot",
+    "heading": "Selected",
+    "highlight": "work",
+    "intro": "A snapshot of campaigns, creative systems and growth projects across ecommerce, B2B, travel and lifestyle brands.",
+    "role": "Role",
+    "viewCase": "View case study",
+    "viewAll": "View all work",
+    "back": "Back to work",
+    "overview": "Overview",
+    "deliverables": "Deliverables",
+    "viewOnUpwork": "View on Upwork"
+  },
+  "results": {
+    "eyebrow": "Proof",
+    "heading": "Numbers that",
+    "highlight": "matter",
+    "intro": "Outcomes from real campaigns — paid, organic and SEO working as one system.",
+    "items": {
+      "roas": "ROAS delivered on Meta Ads for ecommerce brands.",
+      "followers": "Instagram followers grown organically for a luxury jewelry brand.",
+      "leads": "Qualified leads generated in four months for a travel client.",
+      "organicReach": "Monthly organic reach for a travel & tourism brand.",
+      "linkedin": "LinkedIn followers in five months for a cybersecurity firm.",
+      "seo": "Organic clicks and 100% traffic growth through SEO — zero ad spend.",
+      "cpl": "Cost per lead, cut from PKR 115 with optimized funnels.",
+      "youtube": "YouTube views from an animated series, +20% brand visibility."
+    }
+  },
+  "experience": {
+    "eyebrow": "Journey",
+    "heading": "Experience",
+    "items": {
+      "mindwhiz": { "role": "Creative Director", "desc": "Directing creative vision and strategy for branding, digital media and marketing campaigns across diverse industries — leading a multidisciplinary team to consistent, high-quality output." },
+      "metPakistan": { "role": "Director & Cinematographer", "desc": "Directed and shot visual content end-to-end — concept to delivery — managing camera, lighting and framing for cinematic campaign results." },
+      "bloomwright": { "role": "3D Animator", "desc": "Designed 3D models, walkthroughs and virtual tours for real estate — turning floor plans into realistic presentations that drove engagement." },
+      "brandDigital": { "role": "Visual Artist", "desc": "Produced 2D and 3D animations and led a team transforming creative concepts into marketing and educational content." },
+      "brandzila": { "role": "Animation Specialist", "desc": "Led an animation series that reached 10M+ YouTube views and lifted brand visibility by 20%." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Trusted",
+    "heading": "What clients",
+    "highlight": "say",
+    "intro": "Top Rated on Upwork with a 92% job success score across ecommerce, B2B and lifestyle brands."
+  },
+  "certifications": {
+    "eyebrow": "Credentials",
+    "heading": "Certifications &",
+    "highlight": "education",
+    "items": {
+      "emails": { "title": "Writing Emails People Want to Read", "desc": "Clear, professional, engaging email communication — subject lines, structure and tone that lift response rates." },
+      "smStrategy": { "title": "Introduction to Social Media Strategy", "desc": "Audience analysis, goal setting, content planning and performance measurement for measurable growth." }
+    },
+    "educationTitle": "Education"
+  },
+  "skills": {
+    "eyebrow": "Toolkit",
+    "title": "Skills &",
+    "highlight": "tools",
+    "intro": "The disciplines and stack I use to plan, build and scale campaigns end to end.",
+    "skillsLabel": "Expertise",
+    "toolsLabel": "Tools I work with",
+    "heading": "Skills & tools"
+  },
+  "contact": {
+    "eyebrow": "Summary",
+    "heading": "Let's build something that",
+    "highlight": "actually grows",
+    "lead": "Tell me about your brand and your goals. I'll come back within 0–4 hours with how paid, organic and SEO can work together for you.",
+    "form": {
+      "name": "Your name",
+      "email": "Email address",
+      "company": "Company (optional)",
+      "budget": "Monthly budget (optional)",
+      "message": "What are you trying to grow?",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Thanks — your message is on its way. I'll reply within a few hours.",
+      "error": "Something went wrong. Please email me directly instead.",
+      "invalidEmail": "Please enter a valid email address.",
+      "required": "This field is required."
+    },
+    "orEmail": "or email me directly"
+  },
+  "footer": {
+    "tagline": "Digital marketing strategist — paid, organic & SEO as one system.",
+    "rights": "All rights reserved."
+  }
+}

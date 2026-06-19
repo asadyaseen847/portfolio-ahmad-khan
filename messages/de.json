@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Ahmad Khan — Digital-Marketing-Stratege | Meta Ads · SEO · SMM",
+    "description": "Digital-Marketing-Stratege aus London. 7,36x ROAS mit Meta Ads, organisches Wachstum auf 48,5K Follower und nachhaltiges SEO — Paid, Organic und SEO als ein einziges System."
+  },
+  "nav": {
+    "about": "Über mich",
+    "services": "Leistungen",
+    "work": "Arbeiten",
+    "results": "Ergebnisse",
+    "experience": "Erfahrung",
+    "skills": "Skills",
+    "contact": "Kontakt"
+  },
+  "a11y": {
+    "toggleTheme": "Zwischen hellem und dunklem Design wechseln",
+    "changeLanguage": "Sprache ändern"
+  },
+  "hero": {
+    "badge": "2025 – 2026",
+    "ghost": "PORTFOLIO",
+    "name": "AHMAD ULLAH KHAN",
+    "titles": ["Digital-Stratege", "Creative Director", "Growth-Spezialist", "Meta-Ads-Experte"],
+    "headline": "Portfolio",
+    "lead": "Eine visuelle Reise durch meine Leidenschaft für Digital Marketing. Vom Konzept bis zur Umsetzung — entdecken wir die Geschichten und Fähigkeiten, die meine Arbeit ausmachen.",
+    "sub": "Digital-Marketing-Stratege aus London, der E-Commerce-, B2B- und Lifestyle-Marken durch Paid Ads, organische Inhalte und SEO als ein zusammenhängendes System wachsen lässt.",
+    "ctaPrimary": "Projekt starten",
+    "ctaSecondary": "Arbeiten ansehen",
+    "scroll": "Scrollen zum Entdecken"
+  },
+  "trust": {
+    "topRated": "Top Rated",
+    "jss": "Job-Erfolg",
+    "earnings": "Verdient",
+    "jobs": "Projekte",
+    "hours": "Stunden"
+  },
+  "about": {
+    "eyebrow": "Einführung",
+    "aboutTitle": "Über mich",
+    "aboutBody": "Ich bin ein vielseitiger Profi mit Expertise als Creative Director, Social-Media-Stratege und Designer. Durch die Kombination aus kreativer Führung, strategischem Denken und Designkompetenz liefere ich wirkungsvolle Lösungen, die Zielgruppen begeistern und Erfolg vorantreiben. Während sich die meisten Freelancer auf einen Kanal konzentrieren, baue ich vollständige Marketingstrategien, die an jedem Touchpoint konsistente und kumulative Ergebnisse erzielen.",
+    "visionTitle": "Vision",
+    "visionBody": "Meine Vision ist es, die Kraft digitaler Plattformen zu nutzen, um Marken auf bedeutungsvolle und authentische Weise mit ihrer Zielgruppe zu verbinden. Mit überzeugenden Strategien und fesselnden Inhalten fördere ich Engagement, treibe Wachstum voran und baue dauerhafte Beziehungen zwischen Marken und ihren Communities auf.",
+    "statsNote": "Ich habe mit einer Vielzahl von Kunden gearbeitet und wirkungsvolle Kreativ- und Social-Media-Lösungen geliefert."
+  },
+  "stats": {
+    "clients": "Kunden",
+    "handles": "Social-Profile",
+    "dvc": "DVC",
+    "events": "Kunden-Events"
+  },
+  "services": {
+    "eyebrow": "Strategie",
+    "heading": "Was ich am",
+    "highlight": "besten kann",
+    "intro": "Jeder Kunde erhält eine Strategie, die auf seine konkreten Ziele zugeschnitten ist. Keine Vorlagen, kein Rätselraten, keine Standardlösungen.",
+    "items": {
+      "metaAds": { "title": "Meta Ads", "desc": "Full-Funnel-Kampagnen auf Facebook & Instagram — von der Kaltakquise bis zum Retargeting, das konvertiert." },
+      "googlePpc": { "title": "Google PPC", "desc": "Such- und Display-Kampagnen, ausgelegt auf Intention, Quality Score und einen profitablen CPA." },
+      "linkedinAds": { "title": "LinkedIn B2B Ads", "desc": "Verbindet Tech-Unternehmen direkt mit den Entscheidern, die tatsächlich konvertieren." },
+      "smm": { "title": "Social-Media-Management", "desc": "Strategie, Content, Community und Planung, die Marken durchgehend sichtbar halten." },
+      "instagram": { "title": "Instagram-Wachstum", "desc": "Organische Wachstumssysteme und Content-Strategie, die echte, engagierte Zielgruppen aufbauen." },
+      "seo": { "title": "SEO", "desc": "Keyword-Recherche, On-Page- und technisches SEO, das sich zu nachhaltiger Autorität summiert." },
+      "content": { "title": "Content-Marketing", "desc": "Hooks, Texte und Kreativsysteme — KI-gestützt, conversion-orientiert und markentreu." },
+      "emailSms": { "title": "E-Mail & SMS", "desc": "Nurture- und Win-back-Flows, die Einmalkäufer zu Stammkunden machen." },
+      "wordpress": { "title": "WordPress-Entwicklung", "desc": "Performance- und conversion-optimierte Websites und Online-Shops." },
+      "design": { "title": "Design & Marke", "desc": "Visuelle Identität, Werbe-Creatives und Positionierung, die Marken unvergesslich machen." }
+    }
+  },
+  "work": {
+    "eyebrow": "Einblick",
+    "heading": "Ausgewählte",
+    "highlight": "Arbeiten",
+    "intro": "Ein Einblick in Kampagnen, Kreativsysteme und Wachstumsprojekte für E-Commerce-, B2B-, Reise- und Lifestyle-Marken.",
+    "role": "Rolle",
+    "viewCase": "Fallstudie ansehen",
+    "viewAll": "Alle Arbeiten ansehen",
+    "back": "Zurück zu den Arbeiten",
+    "overview": "Überblick",
+    "deliverables": "Leistungen",
+    "viewOnUpwork": "Auf Upwork ansehen"
+  },
+  "results": {
+    "eyebrow": "Belege",
+    "heading": "Zahlen, die",
+    "highlight": "zählen",
+    "intro": "Ergebnisse aus echten Kampagnen — Paid, Organic und SEO als ein System.",
+    "items": {
+      "roas": "ROAS mit Meta Ads für E-Commerce-Marken erzielt.",
+      "followers": "Instagram-Follower organisch für eine Luxus-Schmuckmarke aufgebaut.",
+      "leads": "Qualifizierte Leads in vier Monaten für einen Reisekunden generiert.",
+      "organicReach": "Monatliche organische Reichweite für eine Reise- und Tourismusmarke.",
+      "linkedin": "LinkedIn-Follower in fünf Monaten für ein Cybersecurity-Unternehmen.",
+      "seo": "Organische Klicks und 100% Traffic-Wachstum durch SEO — ohne Werbebudget.",
+      "cpl": "Kosten pro Lead, gesenkt von 115 PKR durch optimierte Funnels.",
+      "youtube": "YouTube-Aufrufe einer Animationsserie, +20% Markenbekanntheit."
+    }
+  },
+  "experience": {
+    "eyebrow": "Werdegang",
+    "heading": "Erfahrung",
+    "items": {
+      "mindwhiz": { "role": "Creative Director", "desc": "Leitung der kreativen Vision und Strategie für Branding, digitale Medien und Marketingkampagnen über diverse Branchen hinweg — Führung eines interdisziplinären Teams zu konsistenten, hochwertigen Ergebnissen." },
+      "metPakistan": { "role": "Regisseur & Kameramann", "desc": "Regie und Dreh visueller Inhalte von Anfang bis Ende — vom Konzept bis zur Auslieferung — mit Verantwortung für Kamera, Licht und Bildaufbau für cineastische Ergebnisse." },
+      "bloomwright": { "role": "3D-Animator", "desc": "Gestaltung von 3D-Modellen, Walkthroughs und virtuellen Touren für Immobilien — Grundrisse in realistische Präsentationen verwandelt, die Engagement steigerten." },
+      "brandDigital": { "role": "Visual Artist", "desc": "Erstellung von 2D- und 3D-Animationen und Leitung eines Teams, das kreative Konzepte in Marketing- und Bildungsinhalte umsetzte." },
+      "brandzila": { "role": "Animationsspezialist", "desc": "Leitung einer Animationsserie mit über 10 Mio. YouTube-Aufrufen und 20% mehr Markenbekanntheit." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Vertrauen",
+    "heading": "Was Kunden",
+    "highlight": "sagen",
+    "intro": "Top Rated auf Upwork mit 92% Job-Erfolg über E-Commerce-, B2B- und Lifestyle-Marken hinweg."
+  },
+  "certifications": {
+    "eyebrow": "Nachweise",
+    "heading": "Zertifikate &",
+    "highlight": "Ausbildung",
+    "items": {
+      "emails": { "title": "Writing Emails People Want to Read", "desc": "Klare, professionelle und ansprechende E-Mail-Kommunikation — Betreffzeilen, Struktur und Tonalität, die Antwortraten steigern." },
+      "smStrategy": { "title": "Introduction to Social Media Strategy", "desc": "Zielgruppenanalyse, Zielsetzung, Content-Planung und Performance-Messung für messbares Wachstum." }
+    },
+    "educationTitle": "Ausbildung"
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Fähigkeiten &",
+    "highlight": "Tools",
+    "intro": "Die Disziplinen und das Toolset, mit denen ich Kampagnen end-to-end plane, umsetze und skaliere.",
+    "skillsLabel": "Expertise",
+    "toolsLabel": "Tools, die ich nutze",
+    "heading": "Fähigkeiten & Tools"
+  },
+  "contact": {
+    "eyebrow": "Fazit",
+    "heading": "Lass uns etwas bauen, das",
+    "highlight": "wirklich wächst",
+    "lead": "Erzähl mir von deiner Marke und deinen Zielen. Ich melde mich innerhalb von 0–4 Stunden mit einem Plan, wie Paid, Organic und SEO für dich zusammenwirken.",
+    "form": {
+      "name": "Dein Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen (optional)",
+      "budget": "Monatsbudget (optional)",
+      "message": "Was möchtest du wachsen lassen?",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet…",
+      "success": "Danke — deine Nachricht ist unterwegs. Ich antworte innerhalb weniger Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte schreib mir direkt eine E-Mail.",
+      "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "required": "Dieses Feld ist erforderlich."
+    },
+    "orEmail": "oder schreib mir direkt"
+  },
+  "footer": {
+    "tagline": "Digital-Marketing-Stratege — Paid, Organic & SEO als ein System.",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
