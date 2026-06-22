@@ -20,7 +20,10 @@ export default function Contact() {
     email: z.string().email(t("form.invalidEmail")),
     company: z.string().optional(),
     budget: z.string().optional(),
-    message: z.string().min(10, t("form.required")),
+    message: z
+      .string()
+      .min(1, t("form.required"))
+      .min(10, t("form.minMessage")),
     // honeypot
     website: z.string().max(0).optional(),
   });
@@ -78,7 +81,7 @@ export default function Contact() {
               <div>
                 <input
                   {...register("name")}
-                  placeholder={t("form.name")}
+                  placeholder={`${t("form.name")} *`}
                   className={field}
                   aria-invalid={!!errors.name}
                 />
@@ -90,7 +93,7 @@ export default function Contact() {
                 <input
                   {...register("email")}
                   type="email"
-                  placeholder={t("form.email")}
+                  placeholder={`${t("form.email")} *`}
                   className={field}
                   aria-invalid={!!errors.email}
                 />
@@ -106,7 +109,7 @@ export default function Contact() {
             <div>
               <textarea
                 {...register("message")}
-                placeholder={t("form.message")}
+                placeholder={`${t("form.message")} *`}
                 rows={5}
                 className={cn(field, "resize-none")}
                 aria-invalid={!!errors.message}
@@ -115,6 +118,8 @@ export default function Contact() {
                 <p className="mt-1 text-xs text-accent-3">{errors.message.message}</p>
               )}
             </div>
+
+            <p className="text-xs text-muted">{t("form.requiredNote")}</p>
 
             {/* honeypot */}
             <input

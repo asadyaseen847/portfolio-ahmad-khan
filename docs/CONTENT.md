@@ -198,7 +198,7 @@ English — Native or Bilingual
 ## Contact
 
 - **CTA headline:** "Let's build something that actually grows your business."
-- **Email:** u.imran@mindwhiz.com
+- **Email:** ahmadkhan@mindwhiz.com
 - **Upwork:** https://www.upwork.com/freelancers/~01ce451dc2d6bd7776
 - **Form fields:** name, email, company (optional), budget (optional), message.
 - **Direct links:** Upwork · LinkedIn (add) · Email · WhatsApp (add).

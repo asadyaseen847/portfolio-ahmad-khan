@@ -143,14 +143,14 @@ export default function ProfileLayout() {
 function Avatar() {
   const [ok, setOk] = useState(true);
   return (
-    <div className="relative mx-auto h-60 w-full overflow-hidden rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-800 to-zinc-950">
+    <div className="relative mx-auto aspect-[16/9] w-full overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950">
       {ok ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src="/images/ahmad-khan.png"
           alt={PROFILE.fullName}
           onError={() => setOk(false)}
-          className="h-full w-full object-cover object-top"
+          className="h-full w-full object-contain"
         />
       ) : (
         <div className="grid h-full w-full place-items-center">
@@ -374,7 +374,10 @@ function ContactTab() {
     email: z.string().email(t("form.invalidEmail")),
     company: z.string().optional(),
     budget: z.string().optional(),
-    message: z.string().min(10, t("form.required")),
+    message: z
+      .string()
+      .min(1, t("form.required"))
+      .min(10, t("form.minMessage")),
     website: z.string().max(0).optional(),
   });
   type FormValues = z.infer<typeof schema>;
@@ -416,14 +419,14 @@ function ContactTab() {
       <form onSubmit={handleSubmit(onSubmit)} className="max-w-xl space-y-4" noValidate>
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
-            <input {...register("name")} placeholder={t("form.name")} className={field} />
+            <input {...register("name")} placeholder={`${t("form.name")} *`} className={field} />
             {errors.name && <p className="mt-1 text-xs text-red-400">{errors.name.message}</p>}
           </div>
           <div>
             <input
               {...register("email")}
               type="email"
-              placeholder={t("form.email")}
+              placeholder={`${t("form.email")} *`}
               className={field}
             />
             {errors.email && <p className="mt-1 text-xs text-red-400">{errors.email.message}</p>}
@@ -436,7 +439,7 @@ function ContactTab() {
         <div>
           <textarea
             {...register("message")}
-            placeholder={t("form.message")}
+            placeholder={`${t("form.message")} *`}
             rows={5}
             className={cn(field, "resize-none")}
           />
@@ -444,6 +447,7 @@ function ContactTab() {
             <p className="mt-1 text-xs text-red-400">{errors.message.message}</p>
           )}
         </div>
+        <p className="text-xs text-zinc-500">{t("form.requiredNote")}</p>
         <input
           {...register("website")}
           tabIndex={-1}

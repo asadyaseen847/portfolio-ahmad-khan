@@ -10,6 +10,7 @@
     "results": "Results",
     "experience": "Experience",
     "skills": "Skills",
+    "certifications": "Certifications",
     "contact": "Contact"
   },
   "a11y": {
@@ -17,10 +18,15 @@
     "changeLanguage": "Change language"
   },
   "hero": {
-    "badge": "2025 – 2026",
+    "badge": "2018 – 2026",
     "ghost": "PORTFOLIO",
     "name": "AHMAD ULLAH KHAN",
-    "titles": ["Digital Strategist", "Creative Director", "Growth Specialist", "Meta Ads Expert"],
+    "titles": [
+      "Digital Strategist",
+      "Creative Director",
+      "Growth Specialist",
+      "Meta Ads Expert"
+    ],
     "headline": "Portfolio",
     "lead": "A visual journey through my passion for digital marketing. From concept to creation, let's explore the stories and skills that define my work.",
     "sub": "London-based digital marketing strategist helping ecommerce, B2B and lifestyle brands grow through paid ads, organic content and SEO working together as one system.",
@@ -55,16 +61,46 @@
     "highlight": "do best",
     "intro": "Every client gets a strategy built around their specific goals. No templates, no guesswork, no one-size-fits-all plans.",
     "items": {
-      "metaAds": { "title": "Meta Ads", "desc": "Full-funnel Facebook & Instagram campaigns — from cold acquisition to retargeting that converts." },
-      "googlePpc": { "title": "Google PPC", "desc": "Search & display campaigns engineered for intent, quality score, and profitable CPA." },
-      "linkedinAds": { "title": "LinkedIn B2B Ads", "desc": "Connecting tech companies directly with the decision-makers who actually convert." },
-      "smm": { "title": "Social Media Management", "desc": "Strategy, content, community and scheduling that keeps brands consistently visible." },
-      "instagram": { "title": "Instagram Growth", "desc": "Organic growth systems and content strategy that build real, engaged audiences." },
-      "seo": { "title": "SEO", "desc": "Keyword research, on-page and technical SEO that compounds into lasting authority." },
-      "content": { "title": "Content Marketing", "desc": "Hooks, copy and creative systems — AI-assisted, conversion-focused, on brand." },
-      "emailSms": { "title": "Email & SMS", "desc": "Nurture and win-back flows that turn one-time buyers into repeat customers." },
-      "wordpress": { "title": "WordPress Development", "desc": "Performance- and conversion-optimized sites and ecommerce stores." },
-      "design": { "title": "Design & Brand", "desc": "Visual identity, ad creatives and positioning that make brands memorable." }
+      "metaAds": {
+        "title": "Meta Ads",
+        "desc": "Full-funnel Facebook & Instagram campaigns — from cold acquisition to retargeting that converts."
+      },
+      "googlePpc": {
+        "title": "Google PPC",
+        "desc": "Search & display campaigns engineered for intent, quality score, and profitable CPA."
+      },
+      "linkedinAds": {
+        "title": "LinkedIn B2B Ads",
+        "desc": "Connecting tech companies directly with the decision-makers who actually convert."
+      },
+      "smm": {
+        "title": "Social Media Management",
+        "desc": "Strategy, content, community and scheduling that keeps brands consistently visible."
+      },
+      "instagram": {
+        "title": "Instagram Growth",
+        "desc": "Organic growth systems and content strategy that build real, engaged audiences."
+      },
+      "seo": {
+        "title": "SEO",
+        "desc": "Keyword research, on-page and technical SEO that compounds into lasting authority."
+      },
+      "content": {
+        "title": "Content Marketing",
+        "desc": "Hooks, copy and creative systems — AI-assisted, conversion-focused, on brand."
+      },
+      "emailSms": {
+        "title": "Email & SMS",
+        "desc": "Nurture and win-back flows that turn one-time buyers into repeat customers."
+      },
+      "wordpress": {
+        "title": "WordPress Development",
+        "desc": "Performance- and conversion-optimized sites and ecommerce stores."
+      },
+      "design": {
+        "title": "Design & Brand",
+        "desc": "Visual identity, ad creatives and positioning that make brands memorable."
+      }
     }
   },
   "work": {
@@ -100,11 +136,26 @@
     "eyebrow": "Journey",
     "heading": "Experience",
     "items": {
-      "mindwhiz": { "role": "Creative Director", "desc": "Directing creative vision and strategy for branding, digital media and marketing campaigns across diverse industries — leading a multidisciplinary team to consistent, high-quality output." },
-      "metPakistan": { "role": "Director & Cinematographer", "desc": "Directed and shot visual content end-to-end — concept to delivery — managing camera, lighting and framing for cinematic campaign results." },
-      "bloomwright": { "role": "3D Animator", "desc": "Designed 3D models, walkthroughs and virtual tours for real estate — turning floor plans into realistic presentations that drove engagement." },
-      "brandDigital": { "role": "Visual Artist", "desc": "Produced 2D and 3D animations and led a team transforming creative concepts into marketing and educational content." },
-      "brandzila": { "role": "Animation Specialist", "desc": "Led an animation series that reached 10M+ YouTube views and lifted brand visibility by 20%." }
+      "mindwhiz": {
+        "role": "Creative Director",
+        "desc": "Directing creative vision and strategy for branding, digital media and marketing campaigns across diverse industries — leading a multidisciplinary team to consistent, high-quality output."
+      },
+      "metPakistan": {
+        "role": "Director & Cinematographer",
+        "desc": "Directed and shot visual content end-to-end — concept to delivery — managing camera, lighting and framing for cinematic campaign results."
+      },
+      "bloomwright": {
+        "role": "3D Animator",
+        "desc": "Designed 3D models, walkthroughs and virtual tours for real estate — turning floor plans into realistic presentations that drove engagement."
+      },
+      "brandDigital": {
+        "role": "Visual Artist",
+        "desc": "Produced 2D and 3D animations and led a team transforming creative concepts into marketing and educational content."
+      },
+      "brandzila": {
+        "role": "Animation Specialist",
+        "desc": "Led an animation series that reached 10M+ YouTube views and lifted brand visibility by 20%."
+      }
     }
   },
   "testimonials": {
@@ -114,12 +165,18 @@
     "intro": "Top Rated on Upwork with a 92% job success score across ecommerce, B2B and lifestyle brands."
   },
   "certifications": {
-    "eyebrow": "Credentials",
+    "eyebrow": "Certifications",
     "heading": "Certifications &",
     "highlight": "education",
     "items": {
-      "emails": { "title": "Writing Emails People Want to Read", "desc": "Clear, professional, engaging email communication — subject lines, structure and tone that lift response rates." },
-      "smStrategy": { "title": "Introduction to Social Media Strategy", "desc": "Audience analysis, goal setting, content planning and performance measurement for measurable growth." }
+      "emails": {
+        "title": "Writing Emails People Want to Read",
+        "desc": "Clear, professional, engaging email communication — subject lines, structure and tone that lift response rates."
+      },
+      "smStrategy": {
+        "title": "Introduction to Social Media Strategy",
+        "desc": "Audience analysis, goal setting, content planning and performance measurement for measurable growth."
+      }
     },
     "educationTitle": "Education"
   },
@@ -148,7 +205,9 @@
       "success": "Thanks — your message is on its way. I'll reply within a few hours.",
       "error": "Something went wrong. Please email me directly instead.",
       "invalidEmail": "Please enter a valid email address.",
-      "required": "This field is required."
+      "required": "This field is required.",
+      "minMessage": "Please add a bit more detail — at least 10 characters.",
+      "requiredNote": "* Required field"
     },
     "orEmail": "or email me directly"
   },

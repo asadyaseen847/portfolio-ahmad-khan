@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import SiteShell from "@/components/layout/SiteShell";
 import Hero from "@/components/sections/Hero";
+import ImageShowcase from "@/components/sections/ImageShowcase";
 import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
 import Work from "@/components/sections/Work";
@@ -22,6 +23,7 @@ export default async function HomePage({
   return (
     <SiteShell>
       <Hero />
+      <ImageShowcase />
       <About />
       <Services />
       <Work />

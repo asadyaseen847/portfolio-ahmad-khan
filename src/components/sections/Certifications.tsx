@@ -8,7 +8,7 @@ export default function Certifications() {
   const t = useTranslations("certifications");
 
   return (
-    <section className="relative px-5 py-24 sm:px-8 sm:py-32">
+    <section id="certifications" className="relative px-5 py-24 sm:px-8 sm:py-32">
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow={t("eyebrow")}

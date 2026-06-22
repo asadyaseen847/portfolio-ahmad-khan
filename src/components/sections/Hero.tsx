@@ -21,6 +21,9 @@ export default function Hero() {
     return () => clearInterval(id);
   }, [titles.length]);
 
+  const ghost = t("ghost");
+  const ghostRow = `${ghost} ${ghost} ${ghost} `;
+
   return (
     <section
       id="hero"
@@ -28,13 +31,20 @@ export default function Hero() {
     >
       <GradientBlob className="pointer-events-none absolute inset-0 -z-10" />
 
-      {/* Ghost outline text */}
-      <span
+      {/* Horizontally moving ghost word */}
+      <div
         aria-hidden
-        className="text-outline pointer-events-none absolute left-1/2 top-1/2 -z-10 -translate-x-1/2 -translate-y-1/2 select-none font-display text-[24vw] font-extrabold leading-none"
+        className="pointer-events-none absolute inset-y-0 left-0 right-0 -z-10 flex items-center overflow-hidden"
       >
-        {t("ghost")}
-      </span>
+        <div className="flex shrink-0 animate-marquee whitespace-nowrap" style={{ ["--marquee-duration" as string]: "32s" }}>
+          <span className="text-outline select-none font-display text-[46vw] font-extrabold leading-none sm:text-[22vw]">
+            {ghostRow}
+          </span>
+          <span className="text-outline select-none font-display text-[46vw] font-extrabold leading-none sm:text-[22vw]">
+            {ghostRow}
+          </span>
+        </div>
+      </div>
 
       <div className="mx-auto w-full max-w-7xl">
         <motion.div
@@ -46,7 +56,7 @@ export default function Hero() {
           <span className="font-display text-xl font-bold tracking-wide sm:text-2xl">
             {t("name")}
           </span>
-          <span className="relative inline-flex h-7 min-w-[12ch] items-center">
+          <span className="relative inline-flex h-7 min-w-[15ch] items-center">
             <AnimatePresence mode="wait">
               <motion.em
                 key={idx}
@@ -54,7 +64,7 @@ export default function Hero() {
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: -14, opacity: 0 }}
                 transition={{ duration: 0.35 }}
-                className="font-mono text-sm not-italic text-accent-2"
+                className="whitespace-nowrap font-mono text-sm not-italic text-accent-2"
               >
                 {titles[idx]}
               </motion.em>
@@ -62,9 +72,11 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        <h1 className="relative font-display text-[18vw] font-extrabold uppercase leading-[0.85] tracking-tight sm:text-[14vw] lg:text-[12rem]">
+        <h1 className="relative font-display text-[15vw] font-extrabold uppercase leading-[0.85] tracking-tight sm:text-[14vw] lg:text-[12rem]">
           <SplitText text={t("headline")} by="char" />
-          <span className="glow-ring absolute -bottom-2 right-0 rounded-full px-4 py-1.5 font-mono text-xs font-medium tracking-widest text-fg sm:text-sm md:bottom-6">
+          {/* Badge: stacks below the word on phones (no overlap), floats over
+              the bottom-right of the headline from sm up. */}
+          <span className="glow-ring mt-4 block w-fit rounded-full px-4 py-1.5 font-mono text-xs font-medium tracking-widest text-fg sm:absolute sm:-bottom-2 sm:right-0 sm:mt-0 sm:text-sm md:bottom-6">
             {t("badge")}
           </span>
         </h1>
@@ -98,7 +110,7 @@ export default function Hero() {
       </div>
 
       <a
-        href="#about"
+        href="#showcase"
         className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-xs uppercase tracking-widest text-muted sm:flex"
       >
         {t("scroll")}

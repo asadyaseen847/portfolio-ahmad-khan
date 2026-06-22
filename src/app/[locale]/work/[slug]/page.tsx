@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { ArrowUpRight } from "lucide-react";
 import SiteShell from "@/components/layout/SiteShell";
+import BackButton from "@/components/ui/BackButton";
 import { Tag } from "@/components/ui/Tag";
 import { routing } from "@/i18n/routing";
 import { caseStudies } from "@/lib/data";
@@ -41,12 +41,7 @@ export default async function CaseStudyPage({
     <SiteShell>
     <article className="px-5 pb-24 pt-32 sm:px-8">
       <div className="mx-auto max-w-3xl">
-        <Link
-          href="/work"
-          className="inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-fg"
-        >
-          <ArrowLeft size={16} /> {t("back")}
-        </Link>
+        <BackButton label={t("back")} />
 
         <p className="mt-10 font-mono text-xs uppercase tracking-widest text-accent-2">
           {study.role}

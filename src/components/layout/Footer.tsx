@@ -14,7 +14,7 @@ export default function Footer() {
           <p className="mt-1 text-sm text-muted">{t("tagline")}</p>
         </div>
 
-        <div className="flex items-center gap-4 text-sm text-muted">
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-muted">
           <a
             href={`mailto:${PROFILE.email}`}
             className="inline-flex items-center gap-1.5 hover:text-fg"

@@ -10,6 +10,7 @@
     "results": "Ergebnisse",
     "experience": "Erfahrung",
     "skills": "Skills",
+    "certifications": "Zertifikate",
     "contact": "Kontakt"
   },
   "a11y": {
@@ -17,10 +18,15 @@
     "changeLanguage": "Sprache ändern"
   },
   "hero": {
-    "badge": "2025 – 2026",
+    "badge": "2018 – 2026",
     "ghost": "PORTFOLIO",
     "name": "AHMAD ULLAH KHAN",
-    "titles": ["Digital-Stratege", "Creative Director", "Growth-Spezialist", "Meta-Ads-Experte"],
+    "titles": [
+      "Digital-Stratege",
+      "Creative Director",
+      "Growth-Spezialist",
+      "Meta-Ads-Experte"
+    ],
     "headline": "Portfolio",
     "lead": "Eine visuelle Reise durch meine Leidenschaft für Digital Marketing. Vom Konzept bis zur Umsetzung — entdecken wir die Geschichten und Fähigkeiten, die meine Arbeit ausmachen.",
     "sub": "Digital-Marketing-Stratege aus London, der E-Commerce-, B2B- und Lifestyle-Marken durch Paid Ads, organische Inhalte und SEO als ein zusammenhängendes System wachsen lässt.",
@@ -55,16 +61,46 @@
     "highlight": "besten kann",
     "intro": "Jeder Kunde erhält eine Strategie, die auf seine konkreten Ziele zugeschnitten ist. Keine Vorlagen, kein Rätselraten, keine Standardlösungen.",
     "items": {
-      "metaAds": { "title": "Meta Ads", "desc": "Full-Funnel-Kampagnen auf Facebook & Instagram — von der Kaltakquise bis zum Retargeting, das konvertiert." },
-      "googlePpc": { "title": "Google PPC", "desc": "Such- und Display-Kampagnen, ausgelegt auf Intention, Quality Score und einen profitablen CPA." },
-      "linkedinAds": { "title": "LinkedIn B2B Ads", "desc": "Verbindet Tech-Unternehmen direkt mit den Entscheidern, die tatsächlich konvertieren." },
-      "smm": { "title": "Social-Media-Management", "desc": "Strategie, Content, Community und Planung, die Marken durchgehend sichtbar halten." },
-      "instagram": { "title": "Instagram-Wachstum", "desc": "Organische Wachstumssysteme und Content-Strategie, die echte, engagierte Zielgruppen aufbauen." },
-      "seo": { "title": "SEO", "desc": "Keyword-Recherche, On-Page- und technisches SEO, das sich zu nachhaltiger Autorität summiert." },
-      "content": { "title": "Content-Marketing", "desc": "Hooks, Texte und Kreativsysteme — KI-gestützt, conversion-orientiert und markentreu." },
-      "emailSms": { "title": "E-Mail & SMS", "desc": "Nurture- und Win-back-Flows, die Einmalkäufer zu Stammkunden machen." },
-      "wordpress": { "title": "WordPress-Entwicklung", "desc": "Performance- und conversion-optimierte Websites und Online-Shops." },
-      "design": { "title": "Design & Marke", "desc": "Visuelle Identität, Werbe-Creatives und Positionierung, die Marken unvergesslich machen." }
+      "metaAds": {
+        "title": "Meta Ads",
+        "desc": "Full-Funnel-Kampagnen auf Facebook & Instagram — von der Kaltakquise bis zum Retargeting, das konvertiert."
+      },
+      "googlePpc": {
+        "title": "Google PPC",
+        "desc": "Such- und Display-Kampagnen, ausgelegt auf Intention, Quality Score und einen profitablen CPA."
+      },
+      "linkedinAds": {
+        "title": "LinkedIn B2B Ads",
+        "desc": "Verbindet Tech-Unternehmen direkt mit den Entscheidern, die tatsächlich konvertieren."
+      },
+      "smm": {
+        "title": "Social-Media-Management",
+        "desc": "Strategie, Content, Community und Planung, die Marken durchgehend sichtbar halten."
+      },
+      "instagram": {
+        "title": "Instagram-Wachstum",
+        "desc": "Organische Wachstumssysteme und Content-Strategie, die echte, engagierte Zielgruppen aufbauen."
+      },
+      "seo": {
+        "title": "SEO",
+        "desc": "Keyword-Recherche, On-Page- und technisches SEO, das sich zu nachhaltiger Autorität summiert."
+      },
+      "content": {
+        "title": "Content-Marketing",
+        "desc": "Hooks, Texte und Kreativsysteme — KI-gestützt, conversion-orientiert und markentreu."
+      },
+      "emailSms": {
+        "title": "E-Mail & SMS",
+        "desc": "Nurture- und Win-back-Flows, die Einmalkäufer zu Stammkunden machen."
+      },
+      "wordpress": {
+        "title": "WordPress-Entwicklung",
+        "desc": "Performance- und conversion-optimierte Websites und Online-Shops."
+      },
+      "design": {
+        "title": "Design & Marke",
+        "desc": "Visuelle Identität, Werbe-Creatives und Positionierung, die Marken unvergesslich machen."
+      }
     }
   },
   "work": {
@@ -100,11 +136,26 @@
     "eyebrow": "Werdegang",
     "heading": "Erfahrung",
     "items": {
-      "mindwhiz": { "role": "Creative Director", "desc": "Leitung der kreativen Vision und Strategie für Branding, digitale Medien und Marketingkampagnen über diverse Branchen hinweg — Führung eines interdisziplinären Teams zu konsistenten, hochwertigen Ergebnissen." },
-      "metPakistan": { "role": "Regisseur & Kameramann", "desc": "Regie und Dreh visueller Inhalte von Anfang bis Ende — vom Konzept bis zur Auslieferung — mit Verantwortung für Kamera, Licht und Bildaufbau für cineastische Ergebnisse." },
-      "bloomwright": { "role": "3D-Animator", "desc": "Gestaltung von 3D-Modellen, Walkthroughs und virtuellen Touren für Immobilien — Grundrisse in realistische Präsentationen verwandelt, die Engagement steigerten." },
-      "brandDigital": { "role": "Visual Artist", "desc": "Erstellung von 2D- und 3D-Animationen und Leitung eines Teams, das kreative Konzepte in Marketing- und Bildungsinhalte umsetzte." },
-      "brandzila": { "role": "Animationsspezialist", "desc": "Leitung einer Animationsserie mit über 10 Mio. YouTube-Aufrufen und 20% mehr Markenbekanntheit." }
+      "mindwhiz": {
+        "role": "Creative Director",
+        "desc": "Leitung der kreativen Vision und Strategie für Branding, digitale Medien und Marketingkampagnen über diverse Branchen hinweg — Führung eines interdisziplinären Teams zu konsistenten, hochwertigen Ergebnissen."
+      },
+      "metPakistan": {
+        "role": "Regisseur & Kameramann",
+        "desc": "Regie und Dreh visueller Inhalte von Anfang bis Ende — vom Konzept bis zur Auslieferung — mit Verantwortung für Kamera, Licht und Bildaufbau für cineastische Ergebnisse."
+      },
+      "bloomwright": {
+        "role": "3D-Animator",
+        "desc": "Gestaltung von 3D-Modellen, Walkthroughs und virtuellen Touren für Immobilien — Grundrisse in realistische Präsentationen verwandelt, die Engagement steigerten."
+      },
+      "brandDigital": {
+        "role": "Visual Artist",
+        "desc": "Erstellung von 2D- und 3D-Animationen und Leitung eines Teams, das kreative Konzepte in Marketing- und Bildungsinhalte umsetzte."
+      },
+      "brandzila": {
+        "role": "Animationsspezialist",
+        "desc": "Leitung einer Animationsserie mit über 10 Mio. YouTube-Aufrufen und 20% mehr Markenbekanntheit."
+      }
     }
   },
   "testimonials": {
@@ -114,12 +165,18 @@
     "intro": "Top Rated auf Upwork mit 92% Job-Erfolg über E-Commerce-, B2B- und Lifestyle-Marken hinweg."
   },
   "certifications": {
-    "eyebrow": "Nachweise",
+    "eyebrow": "Zertifikate",
     "heading": "Zertifikate &",
     "highlight": "Ausbildung",
     "items": {
-      "emails": { "title": "Writing Emails People Want to Read", "desc": "Klare, professionelle und ansprechende E-Mail-Kommunikation — Betreffzeilen, Struktur und Tonalität, die Antwortraten steigern." },
-      "smStrategy": { "title": "Introduction to Social Media Strategy", "desc": "Zielgruppenanalyse, Zielsetzung, Content-Planung und Performance-Messung für messbares Wachstum." }
+      "emails": {
+        "title": "Writing Emails People Want to Read",
+        "desc": "Klare, professionelle und ansprechende E-Mail-Kommunikation — Betreffzeilen, Struktur und Tonalität, die Antwortraten steigern."
+      },
+      "smStrategy": {
+        "title": "Introduction to Social Media Strategy",
+        "desc": "Zielgruppenanalyse, Zielsetzung, Content-Planung und Performance-Messung für messbares Wachstum."
+      }
     },
     "educationTitle": "Ausbildung"
   },
@@ -148,7 +205,9 @@
       "success": "Danke — deine Nachricht ist unterwegs. Ich antworte innerhalb weniger Stunden.",
       "error": "Etwas ist schiefgelaufen. Bitte schreib mir direkt eine E-Mail.",
       "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
-      "required": "Dieses Feld ist erforderlich."
+      "required": "Dieses Feld ist erforderlich.",
+      "minMessage": "Bitte etwas ausführlicher — mindestens 10 Zeichen.",
+      "requiredNote": "* Pflichtfeld"
     },
     "orEmail": "oder schreib mir direkt"
   },

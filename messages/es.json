@@ -10,6 +10,7 @@
     "results": "Resultados",
     "experience": "Experiencia",
     "skills": "Skills",
+    "certifications": "Certificaciones",
     "contact": "Contacto"
   },
   "a11y": {
@@ -17,10 +18,15 @@
     "changeLanguage": "Cambiar idioma"
   },
   "hero": {
-    "badge": "2025 – 2026",
+    "badge": "2018 – 2026",
     "ghost": "PORTFOLIO",
     "name": "AHMAD ULLAH KHAN",
-    "titles": ["Estratega Digital", "Director Creativo", "Especialista en Crecimiento", "Experto en Meta Ads"],
+    "titles": [
+      "Estratega Digital",
+      "Director Creativo",
+      "Especialista en Crecimiento",
+      "Experto en Meta Ads"
+    ],
     "headline": "Portfolio",
     "lead": "Un recorrido visual por mi pasión por el marketing digital. Del concepto a la creación, exploremos las historias y habilidades que definen mi trabajo.",
     "sub": "Estratega de marketing digital con base en Londres que ayuda a marcas de ecommerce, B2B y lifestyle a crecer combinando pauta, contenido orgánico y SEO como un solo sistema.",
@@ -55,16 +61,46 @@
     "highlight": "mejor hago",
     "intro": "Cada cliente recibe una estrategia construida en torno a sus objetivos específicos. Sin plantillas, sin conjeturas, sin planes genéricos.",
     "items": {
-      "metaAds": { "title": "Meta Ads", "desc": "Campañas full-funnel en Facebook e Instagram — desde la captación en frío hasta el retargeting que convierte." },
-      "googlePpc": { "title": "Google PPC", "desc": "Campañas de búsqueda y display diseñadas para intención, quality score y un CPA rentable." },
-      "linkedinAds": { "title": "LinkedIn B2B Ads", "desc": "Conectando empresas tecnológicas directamente con los responsables de decisión que sí convierten." },
-      "smm": { "title": "Gestión de Redes Sociales", "desc": "Estrategia, contenido, comunidad y planificación que mantienen las marcas siempre visibles." },
-      "instagram": { "title": "Crecimiento en Instagram", "desc": "Sistemas de crecimiento orgánico y estrategia de contenido que construyen audiencias reales y comprometidas." },
-      "seo": { "title": "SEO", "desc": "Investigación de palabras clave, SEO on-page y técnico que se acumula en autoridad duradera." },
-      "content": { "title": "Marketing de Contenidos", "desc": "Ganchos, copys y sistemas creativos — asistidos por IA, enfocados en conversión y fieles a la marca." },
-      "emailSms": { "title": "Email y SMS", "desc": "Flujos de nurturing y recuperación que convierten compradores únicos en clientes recurrentes." },
-      "wordpress": { "title": "Desarrollo WordPress", "desc": "Sitios y tiendas online optimizados para rendimiento y conversión." },
-      "design": { "title": "Diseño y Marca", "desc": "Identidad visual, creatividades publicitarias y posicionamiento que hacen memorables a las marcas." }
+      "metaAds": {
+        "title": "Meta Ads",
+        "desc": "Campañas full-funnel en Facebook e Instagram — desde la captación en frío hasta el retargeting que convierte."
+      },
+      "googlePpc": {
+        "title": "Google PPC",
+        "desc": "Campañas de búsqueda y display diseñadas para intención, quality score y un CPA rentable."
+      },
+      "linkedinAds": {
+        "title": "LinkedIn B2B Ads",
+        "desc": "Conectando empresas tecnológicas directamente con los responsables de decisión que sí convierten."
+      },
+      "smm": {
+        "title": "Gestión de Redes Sociales",
+        "desc": "Estrategia, contenido, comunidad y planificación que mantienen las marcas siempre visibles."
+      },
+      "instagram": {
+        "title": "Crecimiento en Instagram",
+        "desc": "Sistemas de crecimiento orgánico y estrategia de contenido que construyen audiencias reales y comprometidas."
+      },
+      "seo": {
+        "title": "SEO",
+        "desc": "Investigación de palabras clave, SEO on-page y técnico que se acumula en autoridad duradera."
+      },
+      "content": {
+        "title": "Marketing de Contenidos",
+        "desc": "Ganchos, copys y sistemas creativos — asistidos por IA, enfocados en conversión y fieles a la marca."
+      },
+      "emailSms": {
+        "title": "Email y SMS",
+        "desc": "Flujos de nurturing y recuperación que convierten compradores únicos en clientes recurrentes."
+      },
+      "wordpress": {
+        "title": "Desarrollo WordPress",
+        "desc": "Sitios y tiendas online optimizados para rendimiento y conversión."
+      },
+      "design": {
+        "title": "Diseño y Marca",
+        "desc": "Identidad visual, creatividades publicitarias y posicionamiento que hacen memorables a las marcas."
+      }
     }
   },
   "work": {
@@ -100,11 +136,26 @@
     "eyebrow": "Trayectoria",
     "heading": "Experiencia",
     "items": {
-      "mindwhiz": { "role": "Director Creativo", "desc": "Dirigiendo la visión y la estrategia creativa de branding, medios digitales y campañas de marketing en diversos sectores — liderando un equipo multidisciplinar hacia resultados consistentes y de alta calidad." },
-      "metPakistan": { "role": "Director y Director de Fotografía", "desc": "Dirigí y filmé contenido visual de principio a fin — del concepto a la entrega — gestionando cámara, iluminación y encuadre para resultados cinematográficos." },
-      "bloomwright": { "role": "Animador 3D", "desc": "Diseñé modelos 3D, recorridos y tours virtuales para inmobiliaria — convirtiendo planos en presentaciones realistas que impulsaron la interacción." },
-      "brandDigital": { "role": "Artista Visual", "desc": "Produje animaciones 2D y 3D y lideré un equipo transformando conceptos creativos en contenido de marketing y educativo." },
-      "brandzila": { "role": "Especialista en Animación", "desc": "Lideré una serie animada que alcanzó más de 10M de visualizaciones en YouTube y elevó la visibilidad de marca un 20%." }
+      "mindwhiz": {
+        "role": "Director Creativo",
+        "desc": "Dirigiendo la visión y la estrategia creativa de branding, medios digitales y campañas de marketing en diversos sectores — liderando un equipo multidisciplinar hacia resultados consistentes y de alta calidad."
+      },
+      "metPakistan": {
+        "role": "Director y Director de Fotografía",
+        "desc": "Dirigí y filmé contenido visual de principio a fin — del concepto a la entrega — gestionando cámara, iluminación y encuadre para resultados cinematográficos."
+      },
+      "bloomwright": {
+        "role": "Animador 3D",
+        "desc": "Diseñé modelos 3D, recorridos y tours virtuales para inmobiliaria — convirtiendo planos en presentaciones realistas que impulsaron la interacción."
+      },
+      "brandDigital": {
+        "role": "Artista Visual",
+        "desc": "Produje animaciones 2D y 3D y lideré un equipo transformando conceptos creativos en contenido de marketing y educativo."
+      },
+      "brandzila": {
+        "role": "Especialista en Animación",
+        "desc": "Lideré una serie animada que alcanzó más de 10M de visualizaciones en YouTube y elevó la visibilidad de marca un 20%."
+      }
     }
   },
   "testimonials": {
@@ -114,12 +165,18 @@
     "intro": "Top Rated en Upwork con un 92% de éxito laboral en marcas de ecommerce, B2B y lifestyle."
   },
   "certifications": {
-    "eyebrow": "Credenciales",
+    "eyebrow": "Certificaciones",
     "heading": "Certificaciones y",
     "highlight": "formación",
     "items": {
-      "emails": { "title": "Writing Emails People Want to Read", "desc": "Comunicación por email clara, profesional y atractiva — asuntos, estructura y tono que elevan las tasas de respuesta." },
-      "smStrategy": { "title": "Introduction to Social Media Strategy", "desc": "Análisis de audiencia, definición de objetivos, planificación de contenido y medición del rendimiento para un crecimiento medible." }
+      "emails": {
+        "title": "Writing Emails People Want to Read",
+        "desc": "Comunicación por email clara, profesional y atractiva — asuntos, estructura y tono que elevan las tasas de respuesta."
+      },
+      "smStrategy": {
+        "title": "Introduction to Social Media Strategy",
+        "desc": "Análisis de audiencia, definición de objetivos, planificación de contenido y medición del rendimiento para un crecimiento medible."
+      }
     },
     "educationTitle": "Formación"
   },
@@ -148,7 +205,9 @@
       "success": "Gracias — tu mensaje está en camino. Te responderé en pocas horas.",
       "error": "Algo salió mal. Por favor, escríbeme directamente por email.",
       "invalidEmail": "Introduce un correo electrónico válido.",
-      "required": "Este campo es obligatorio."
+      "required": "Este campo es obligatorio.",
+      "minMessage": "Añade un poco más de detalle — al menos 10 caracteres.",
+      "requiredNote": "* Campo obligatorio"
     },
     "orEmail": "o escríbeme directamente"
   },

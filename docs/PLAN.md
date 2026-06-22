@@ -2,7 +2,7 @@
 
 > Advanced, animated personal portfolio for **Ahmad Khan — Digital Marketing Strategist / Creative Director**.
 > Reference vibe: https://saadullahsajid.netlify.app/
-> Owner: Ahmad K. (u.imran@mindwhiz.com) · Upwork: https://www.upwork.com/freelancers/~01ce451dc2d6bd7776
+> Owner: Ahmad K. (ahmadkhan@mindwhiz.com) · Upwork: https://www.upwork.com/freelancers/~01ce451dc2d6bd7776
 
 ---
 
